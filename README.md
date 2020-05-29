@@ -1,2 +1,2 @@
 # NPHAGUN
-using this repository for my practice projects on weeb development
+using this repository for my practice projects on web development
