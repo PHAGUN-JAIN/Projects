@@ -1,17 +1,36 @@
 
-div form 
-        {
-          text-align:right;
+body{
+    margin:0px;
+    padding:0px;
+    background-color:black;
+    color:white;
+     }
 
-          }
-
-div  
-  {
+div{
+      width:100%;
+      text-align:center;
+      transform: translate(-50px,50px);
       background:none;
       margin:5px;
       padding:3px;
-      width:300px;
-      font-size:18px;
+      
+      font-size:14px;
       text-align:center;
     } 
 
+#title {
+      font-size:20px;
+       margin:0px;
+        }
+
+
+.bton{
+     border:none;
+     background:none;
+     width:100%;
+     padding:5px;
+     font-size:18px;
+    
+     color:white;
+  
+     }
