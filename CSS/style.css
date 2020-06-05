@@ -2,9 +2,10 @@
 body{
     margin:0px;
     padding:0px;
-    background-color:black;
+    background-color:blue;
     color:white;
      }
+
 
 div{
       width:100%;
@@ -12,26 +13,41 @@ div{
       transform: translate(-50px,50px);
       background:none;
       margin:5px;
+      margin-top:5px;
       padding:3px;
       
       font-size:14px;
       text-align:center;
-    } 
+    }
+ 
 
 #title {
       font-size:20px;
        margin:0px;
+      background:black;
+     
         }
+
+
 #name input {
              border:none;
                }
+
 #number input{
               border:none;
                }
+
+
 #email input{ 
              border:none;
                }
-#pallete1{align-items:justify;}
+
+
+#survey-form{
+            background:000000;
+             }
+
+
 .bton{
      border:none;
      background:none;
