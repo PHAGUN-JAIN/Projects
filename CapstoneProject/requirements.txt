@@ -1,0 +1,12 @@
+
+
+1.page must have atleast two semantic tags (header,nav,footer,etc.).
+
+2.page must be responsive--atleast two unique views
+
+3.website should consist of atleast three pages.
+
+4.atleast 4 images on one of pages.
+
+5.each page must be styled not to overrdo.
+
