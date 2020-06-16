@@ -9,6 +9,7 @@ body,#root{
     background-color: white;
     padding: 20px;
     font-weight: bold;
+    text-align:center;
 }
 #1{
     margin-bottom: 1px;
