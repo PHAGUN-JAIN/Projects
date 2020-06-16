@@ -1,17 +1,34 @@
-body{
+body,#root{
     margin:0%;
     padding: 0em;
+    min-height:99vh; 
 }
 
+.author{
+    color: black;
+    background-color: white;
+    padding: 20px;
+    font-weight: bold;
+}
 #1{
     margin-bottom: 1px;
     align-items: center;
+    display:inline-block;
 }
 
 
+
 .nav{
+    
+    overflow: hidden;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight:540;
+    font-family:cursive;
     margin: 0%;
     padding: 1%;
+    align-items: flex-end;
     align-content: center;
     background-color:black;
 }
@@ -20,6 +37,11 @@ a{
     text-decoration: none;
     color: whitesmoke;
     line-height: 1.9;
+}
+//change color onhover
+a:hover{
+    background: #dddd;
+    color:black;
 }
 #l1 {
     padding:1%;
