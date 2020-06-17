@@ -10,6 +10,7 @@ body,#root{
     background-color: white;
     padding: 20px;
     font-weight: bold;
+    align-text:center;
 }
 #1{
     margin-bottom: 1px;
