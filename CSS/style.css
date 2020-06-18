@@ -57,6 +57,27 @@ a:hover{
     background-color: azure;
 }
 
-.content{
-    background-color: azure;
+.card{
+    border: 1px dotted grey;
+    margin-top: 5px;
+    overflow: hidden;
+    background-color: lightgray;
+}
+img{
+    width:560px;
+    height:400px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-style: groove;
+    border-radius: 25px;
+    border-radius: 25px;
+    display: inline;
+}
+
+.desc{
+    
+    margin-left: 15px;
+    padding-bottom: 10px;
+    display: inline-block;
 }
