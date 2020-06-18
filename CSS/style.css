@@ -1,20 +1,22 @@
-body,#root{
+body{
     margin:0%;
     padding: 0em;
     min-height:99vh; 
 }
 
+#root{
+    border: 2px solid black;
+}
 .author{
     color:#B29600;
-    background-color: whitesmoke;
     font-weight: bold;
     align-content: center;
 }
 
  h1 {
      text-align: center;
-    font-size: 45px;
-    font-family: fantasy;
+     font-size: 45px;
+     font-family: fantasy;
 }
 
 #1{
@@ -26,7 +28,7 @@ body,#root{
 
 
 .nav{
-    margin: 0 auto;  
+    margin: 0 ;  
     overflow: hidden;
     font-variant: small-caps;
     font-weight:500;
@@ -34,6 +36,8 @@ body,#root{
     padding: 1%;
     text-align: center;
     background: transparent;
+    border: 2px solid black;
+    border-bottom: 0px;
     background-color:whitesmoke;
 }
 
