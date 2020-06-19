@@ -3,6 +3,7 @@ body{
     padding: 0em;
     min-height:99vh; 
     border: 1px solid grey;
+    margin:50px;
 }
 
 #root{
