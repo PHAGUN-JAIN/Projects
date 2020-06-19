@@ -51,6 +51,7 @@ a{
     padding-left: 3%;
     border: 1px solid black;
     border-radius: 25px;
+    color: darkgrey;
 }
 a:hover{
     color: black;
@@ -64,15 +65,10 @@ a:hover{
     background-color: lightgray;
 }
 img{
-    width:560px;
+    width:400px;
     height:400px;
-    margin-left: 10px;
-    margin-top: 10px;
-    border: 1px solid black;
-    border-style: groove;
-    border-radius: 25px;
-    border-radius: 25px;
-    display: inline;
+    border-radius: 500px;
+    border:2px solid darkgrey;
 }
 
 .desc{
@@ -80,4 +76,42 @@ img{
     margin-left: 15px;
     padding-bottom: 10px;
     display: inline-block;
+}
+
+div#corecontent{
+    border-bottom: 1px solid grey;
+}
+
+div#content{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1000px;
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.postcontent h2.entrytitle{
+           font-size: 1.4em;
+           margin-top: 30px;
+           margin-bottom: :30px;
+           color:#b29600;
+           font-family: serif ;
+           text-align: center;
+         text-decoration: underline;
+        padding-left: 10px;
+        }
+
+div.postcontent{
+    border-top: 1px solid grey;
+}
+div.entrycontet{
+    text-align: center;
+}
+
+
+
+#footer{
+    margin-top: 10px;
+    border-top: 1px solid grey;
 }
