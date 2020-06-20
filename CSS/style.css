@@ -3,7 +3,8 @@ body{
     padding: 0em;
     min-height:99vh; 
     border: 1px solid grey;
-    margin:50px;
+    margin:5px;
+    background-color: mintcream;
 }
 
 #root{
@@ -40,10 +41,11 @@ body{
     background: transparent;
     border: 2px solid black;
     border-bottom: 0px;
+    font-family: monospace;
     background-color:whitesmoke;
 }
 
-a{
+a#l1,#l2,#l3{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
@@ -67,8 +69,8 @@ a:hover{
     background-color: lightgray;
 }
 img{
-    width:400px;
-    height:400px;
+    width:300px;
+    height:300px;
     border-radius: 500px;
     border:2px solid darkgrey;
 }
@@ -111,10 +113,41 @@ div.entrycontet{
     text-align: center;
 }
 
-
-
 #footer{
-    margin-top: 10px;
+    margin-top: 5px;
+    padding-top: 2px;
+    padding-bottom:20px;
     border-top: 1px solid grey;
     margin-bottom:30px;
+    align-content: center;
+    text-align: center; 
+}
+
+.footwrap{
+    display:inline-block;
+    float:right;
+}
+
+.footercontent{
+    display:inline-flex;
+    font-size: 20px;
+    font-family: cursive;
+    margin-right: 30px;
+}
+
+div#info{
+    display: inline-block;
+    float: right;
+    padding-right: 10px;
+    
+}
+
+.follow{
+    line-height: auto;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+i{
+    padding-right: 22px;
 }
