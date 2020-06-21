@@ -1,7 +1,7 @@
 body{
     margin:0%;
     padding: 0em;
-    min-height:99vh; 
+    min-height:100vh; 
     border: 1px solid grey;
     margin:5px;
     background-color: mintcream;
@@ -41,6 +41,8 @@ body{
     background: transparent;
     border: 2px solid black;
     border-bottom: 0px;
+    border-left: 1px;
+    border-right: 1px;
     font-family: monospace;
     background-color:whitesmoke;
 }
@@ -126,13 +128,18 @@ div.entrycontet{
 .footwrap{
     display:inline-block;
     float:right;
+    background-color:burlywood;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 
 .footercontent{
     display:inline-flex;
     font-size: 20px;
+    text-justify: inter-word;
     font-family: cursive;
-    margin-right: 30px;
+    margin-right: 65px;
+    text-transform: full-width;
 }
 
 div#info{
@@ -149,5 +156,6 @@ div#info{
 }
 
 i{
-    padding-right: 22px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
