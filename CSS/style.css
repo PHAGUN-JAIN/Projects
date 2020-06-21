@@ -3,7 +3,7 @@ body{
     padding: 0em;
     min-height:100vh; 
     border: 1px solid grey;
-    margin:5px;
+    margin:2px;
     background-color: mintcream;
 }
 
@@ -59,7 +59,7 @@ a#l1,#l2,#l3{
     border-radius: 25px;
     color: darkgrey;
 }
-a:hover{
+a#l1:hover,#l2:hover,#l3:hover{
     color: black;
     background-color: azure;
 }
@@ -74,7 +74,7 @@ img{
     width:300px;
     height:300px;
     border-radius: 500px;
-    border:2px solid darkgrey;
+    border:2px solid black;
 }
 
 .desc{
@@ -109,37 +109,25 @@ div.postcontent h2.entrytitle{
         }
 
 div.postcontent{
-    border-top: 1px solid grey;
+    border-top: 1px solid black;
 }
 div.entrycontet{
     text-align: center;
 }
 
-#footer{
-    margin-top: 5px;
-    padding-top: 2px;
-    padding-bottom:20px;
-    border-top: 1px solid grey;
-    margin-bottom:30px;
-    align-content: center;
-    text-align: center; 
-}
-
 .footwrap{
-    display:inline-block;
-    float:right;
-    background-color:burlywood;
-    border-radius: 20px;
-    margin-top: 10px;
+    display:block;
+    background-color:darkgoldenrod;
+    border-radius:2px;
+    border:2px solid black;
 }
 
 .footercontent{
     display:inline-flex;
     font-size: 20px;
-    text-justify: inter-word;
+    transform: translateX(565%);
     font-family: cursive;
     margin-right: 65px;
-    text-transform: full-width;
 }
 
 div#info{
@@ -150,8 +138,7 @@ div#info{
 }
 
 .follow{
-    line-height: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-right: 20px;
 }
 
