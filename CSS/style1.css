@@ -21,4 +21,32 @@
       padding-top:30px;
       min-height:70px;
       border-bottom:#e8491d 3px solid;
-      }
+     }
+
+   header a{
+         color:#ffffff;
+         text-decoration:none;   //for removing underlines
+         text-transform: uppercase;  //capatilising each letter
+         font-size:16px;
+     }
+
+   header ul{     //ul has default margin and padding
+      margin : 0;         
+      padding : 0;
+     }
+
+   header li{
+         float : left;
+         display : inline;
+         padding : 0 20px 0 20px;
+     }
+
+   header #branding{
+          margin : 0;    //h1 has default margin
+          display:inline-block;
+     }
+
+   header nav{
+           float : right;
+           margin-bottom:20px;
+     }
