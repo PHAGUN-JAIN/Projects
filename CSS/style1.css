@@ -69,5 +69,17 @@
 
    #showcase{
        min-height:400px;
-       background:url('../CSS/IMG/showcase.jpg') no-repeat;
+       background:url('../CSS/IMG/showcase.jpg') no-repeat 0 -400px;  //aligning the image
+       text-align:center;
+       color:#ffffff;
+     }
+
+   #showcase h1{
+      margin-top:100px;
+      font-size:55px;
+      margin-bottom:10px;
+     }
+   
+   #showcase p{
+      font-size:20px;
      }
