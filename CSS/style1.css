@@ -64,3 +64,10 @@
             color:#cccccc;
             font-weight:bold;
      }
+
+ /* SHOWCASE */
+
+   #showcase{
+       min-height:400px;
+       background:url('../CSS/IMG/showcase.jpg') no-repeat;
+     }
