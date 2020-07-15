@@ -40,13 +40,19 @@
          display : inline;
          padding : 0 20px 0 20px;
      }
+ 
+   header #branding {
+           float: left;
+     }
 
-   header #branding{
+   header #branding h1{
           margin : 0;    //h1 has default margin
-          display:inline-block;
+          display:inline;
      }
 
    header nav{
            float : right;
-           margin-bottom:20px;
+           margin-top:10px;
      }
+
+ 
