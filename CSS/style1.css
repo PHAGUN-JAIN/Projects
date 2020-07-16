@@ -143,6 +143,13 @@
     margin-top:10px;
      }
 
+/* Main-col */
+
+ article#main-col{
+        float:left;
+        width:60%;
+     }
+
    footer{
          padding:20px;
          margin-top:20px;
