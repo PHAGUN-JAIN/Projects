@@ -145,7 +145,8 @@
   
 /* sidebar */
 
- aside#sidebar{                       /*always write like this"tag#id"*/
+ aside#sidebar{                       /*always write like this"tag#id"
+                                         with aside and article tag*/
     float:right;
      width:30%;
     margin-top:10px;
@@ -165,3 +166,40 @@
          background-color:#e8491d;
          text-align:center;
      }
+
+/* Media Queries */
+
+@media(max-width: 768px){
+
+     header #branding,        /* write like this tag #id for header footer*/
+     header nav,
+     header nav li,
+     #newsletter h1,
+     #newsletter form,
+     #boxes box,
+      article#main-col,
+       aside#sidebar{
+           
+           float:none;
+           text-align:center;
+           width:100%;
+        }
+   
+     header{
+        padding-bottom:20px;
+        }
+
+     #showcase h1{
+        margin-top:40px;
+       }
+    
+     #newsletter button{
+        display:block;
+        width:100%;
+       }
+
+     #newsletter form input{
+         width:100%;
+         margin-bottom:5px;
+       }
+  }
