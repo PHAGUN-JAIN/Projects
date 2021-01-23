@@ -1,0 +1,28 @@
+.main{
+    padding: 0%;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1200px;
+    padding-top: 11rem;
+}
+.brand-name{
+    margin: 0 auto;
+    padding:0;
+    display: inline-block;
+    text-decoration: underline; 
+    font-size:4rem;
+    text-align: center;
+    align-items: center;
+   
+}
+.brand-name h1{
+    height: 6rem;
+    text-align: center;
+    align-items: center;
+}
+.label{
+
+    max-height: fit-content;
+}
