@@ -1,5 +1,5 @@
 .main{
-    display: flex;
+    display: block;
     align-items: center;
     margin: 0 auto;
     text-align: center;
@@ -8,12 +8,18 @@
 }
 .brand-name{
     margin: 0 auto;
-    display: flex;
-    align-items:stretch;
-    flex-grow: 1;
-    text-decoration: underline;
+    padding:0;
+    display: inline-block;
+    text-decoration: underline; 
     font-size:4rem;
+  text-align: center;
+  align-items: center;
 }
-.desc{
-    display: flex;
+.brand-name h1{
+    height: 6rem;
+    text-align: center;
+    align-items: center;
+}
+.label{
+    max-height: fit-content;
 }
