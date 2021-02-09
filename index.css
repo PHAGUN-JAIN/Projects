@@ -6,6 +6,9 @@
     text-align: center;
     max-width: 1200px;
     padding-top: 11rem;
+    overflow-y: scroll;
+    overflow-x: scroll;
+
 }
 .brand-name{
     margin: 0 auto;
